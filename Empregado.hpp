@@ -25,6 +25,8 @@ class Empregado {
     virtual void printDadosMes(double horasTrabalhadas) const = 0;
 
     double getPagamentoMes(double horasTrabalhadas) const;
+
+    virtual ~Empregado() {};
 };
 
 #endif

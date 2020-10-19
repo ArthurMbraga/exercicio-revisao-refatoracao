@@ -17,6 +17,8 @@ class Engenheiro : public Empregado {
     void setProjetos(int projetos) { _projetos = projetos; };
 
     virtual void printDadosMes(double horasTrabalhadas) const override;
+
+    virtual ~Engenheiro() {};
 };
 
 #endif

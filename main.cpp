@@ -20,5 +20,12 @@ int main() {
     Vendedor* vend3 = new Vendedor("Sonia Stark", 30, 4000);
     vend3->printDadosMes(8);
 
+    delete eng1;
+    delete eng2;
+    delete eng3;
+    delete vend1;
+    delete vend2;
+    delete vend3;
+
     return 0;
 }

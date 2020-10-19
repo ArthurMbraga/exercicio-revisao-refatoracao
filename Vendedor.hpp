@@ -20,6 +20,8 @@ class Vendedor : public Empregado {
     double getQuotaTotalAnual() const;
 
     virtual void printDadosMes(double horasTrabalhadas) const override;
+
+    virtual ~Vendedor() {};
 };
 
 #endif
